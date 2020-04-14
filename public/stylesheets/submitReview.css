@@ -1,0 +1,301 @@
+body{
+	background-color:black;
+	font-family:'avenir', light;
+}
+
+h1{
+  display: block;
+  float: left;
+  font-family: 'Avenir', sans-serif;
+  /* font-weight: light; */
+  color: #36c6b6;
+}
+
+nav{
+  background-color: green;
+  /* margin-top: -20px; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  height: 100px;
+}
+
+nav ul li{
+	list-style-type: none;
+	display:block;
+  padding:0px 15px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	background-color:none;
+	font-family:'avenir', sans-serif;
+	font-weight: light;
+  font-size: 18px;
+  text-align: center;
+	color: white;
+	
+}
+
+
+a:link{
+	color:white;
+}
+a:visited{
+	color:white;
+}
+
+/* CSS for Search Results Page*/
+.floatRight{
+  float: right;
+}
+
+.floatLeft{
+  float: left;
+}
+.floatLeft > a{
+  color: #14e8f0;
+  font-size: 24px;
+  font-style: oblique;
+
+}
+
+.containerTest{
+  align-items: flex-start;
+  justify-items: start;
+  top: 170px;
+  right: 0;
+  position: absolute;
+}
+
+.container {	
+	display: flex;	
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    justify-self: start;
+
+	/* position:relative; */
+  margin:20px;
+  
+}
+
+.container > div {
+  background-color: #36c6b6;
+  border-radius:25px;
+  width: 250px;
+  height:200px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* CSS for Reviews Page*/
+
+#reviewTitle{
+	display:flex;
+	position:relative;
+	left:50px;
+	bottom:90px;
+	margin:20px;
+	color:white;
+  font-size:30px;
+  padding-top: 10%;
+}
+
+#profile{
+	background-color: #36c6b6;
+ 	border-radius:100%;
+ 	width: 50px;
+ 	height:50px;
+ 	margin: 20px;
+ 	display:flex;
+	position:relative;
+	left:50px;
+	bottom:90px;
+}
+#name{
+	display:flex;
+	left:135px;
+	bottom:160px;
+	font-size:20px;
+	color:black;
+}
+.checked-review {
+	display:flex;
+	position:relative;
+	left:135px;
+	bottom:160px;
+	margin:3px;
+  	color:#36c6b6;
+}
+#feedback{
+	display:flex;
+	position:relative;
+	left:135px;
+	bottom:160px;
+	font-size:20px;
+	color:white;
+	width:550px;
+}
+.overallReview {	
+	display: flex;	
+  	flex-direction: column;
+	position:relative;
+	bottom:800px;
+	left:1250px;
+	margin:20px;
+  
+}
+
+.overallReview > div {
+ 	background-color: #36c6b6;
+ 	border-radius:25px;
+ 	width: 300px;
+ 	height:300px;
+ 	margin: 10px;
+ 	text-align: center;
+	color:white;
+	font-size:30px;
+
+}
+#fraction{
+	text-align: center;
+	color:white;
+	font-size:100px;
+}
+
+/*css fpr submit review page */
+
+#SubmitReviewTitle{
+	text-align:center;
+	color:white;
+  font-size:40px;
+  padding-top: 10%;
+}
+
+.container-submitreview {	
+	display: flex;	
+    
+    margin: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+    height: 500px;
+	background-color:#36c6b6;
+    border-radius: 25px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+
+.container-titles {	
+  display: flex;	
+  flex-wrap: wrap;
+  flex-direction: column;
+    /* margin-left: 250px; */
+    justify-content: center;
+  margin-bottom: 160px;
+ 	height:200px;
+  
+}
+
+.container-titles > div {
+   margin: 10px;
+	color:black;
+    font-size:20px;
+    width: 50%;
+    
+
+}
+.container-inputs {	
+  display: flex;	
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  height: 400px;
+	/* width: 750px; */
+ 	/* height:500px; */
+  
+}
+
+.container-inputs > div {
+   margin: 10px;
+   width: 50%;
+}
+.container-inputs input{
+	width:auto;
+}
+
+#button{
+	display: flex;	
+  margin-left: 50%;
+}
+
+.rectangle {
+  position: absolute;
+  top: 30%;
+  height: 300px;
+  width: 600px;
+  display: block;
+  left:0;
+  right:0;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  background-color: #36c6b6;
+}
+
+.navHeader{
+  padding-top: 20px;
+}
+
+strong{
+  font-size: 36px;
+}
+
+/* Adapted from W3 Schools https://www.w3schools.com/howto/howto_js_snackbar.asp */
+#snackbar{
+  visibility: hidden;
+  color: white;
+  background-color: #36c6b6;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  z-index: 3;
+  left: 25%;
+  width: 50%;
+  bottom: 5%;
+  border: 2px black;
+}
+
+#snackbar.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.0s;
+  animation: fadein 0.5s, fadeout 0.5s 2.0s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}

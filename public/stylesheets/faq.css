@@ -1,0 +1,155 @@
+body{
+	background-color:black;
+	font-family:'avenir', light;
+}
+
+h1{
+  display: block;
+  float: left;
+  font-family: 'Avenir', sans-serif;
+  /* font-weight: light; */
+  color: #36c6b6;
+}
+
+nav{
+  background-color: green;
+  /* margin-top: -20px; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  height: 100px;
+}
+
+nav ul li{
+	list-style-type: none;
+	display:block;
+  padding:0px 15px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	background-color:none;
+	font-family:'avenir', sans-serif;
+	font-weight: light;
+  font-size: 18px;
+  text-align: center;
+	color: white;
+	
+}
+
+
+a:link{
+	color:white;
+}
+a:visited{
+	color:white;
+}
+
+/* CSS for Search Results Page*/
+.floatRight{
+  float: right;
+}
+
+.floatLeft{
+  float: left;
+}
+.floatLeft > a{
+  color: #14e8f0;
+  font-size: 24px;
+  font-style: oblique;
+
+}
+
+
+.container {	
+	display: flex;	
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    justify-self: start;
+
+	/* position:relative; */
+  margin:20px;
+  
+}
+
+.container > div {
+  background-color: #36c6b6;
+  border-radius:25px;
+  width: 250px;
+  height:200px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.rectangle {
+  position: absolute;
+  top: 30%;
+  height: 300px;
+  width: 600px;
+  display: block;
+  left:0;
+  right:0;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  background-color: #36c6b6;
+}
+
+.homeHeading{
+  color: white;
+  font-size: 32px;
+  padding-top: 10%;
+}
+
+/* Progress bar code adapted from W3 Schools: https://www.w3schools.com/howto/howto_js_progressbar.asp */
+#scrollProgress {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 45px;
+}
+
+#progressBar {
+  width: 0%;
+  height: 15px;
+  background-color: #14e8f0;
+}
+
+.Questions {
+  background-color: #36c6b6;
+  background-size: contain;
+  text-align: center;
+  position: relative;
+  top: 200px;
+  display: block;
+  left:0;
+  right:0;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 50px;
+  padding-left:50px;
+  padding-right:50px;
+  font-family: 'Avenir', sans-serif;
+  font-weight: light;
+  color: black;
+  font-size:18px;
+}
+
+.navHeader{
+  padding-top: 20px;
+}
+
+strong{
+  font-size: 36px;
+}

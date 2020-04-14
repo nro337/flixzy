@@ -1,0 +1,297 @@
+body{
+	background-color:black;
+	font-family:'avenir', light;
+}
+
+h1{
+  display: block;
+  float: left;
+  font-family: 'Avenir', sans-serif;
+  /* font-weight: light; */
+  color: #36c6b6;
+}
+
+nav{
+  background-color: green;
+  /* margin-top: -20px; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  height: 100px;
+}
+
+nav ul li{
+	list-style-type: none;
+	display:block;
+  padding:0px 15px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	background-color:none;
+	font-family:'avenir', sans-serif;
+	font-weight: light;
+  font-size: 18px;
+  text-align: center;
+	color: white;
+	
+}
+
+button{
+  font-size: 30px;
+  border-radius: 12px;
+}
+
+button:hover{
+  background-color: aqua;
+}
+
+/* Modal code adapted from W3 Schools:  https://www.w3schools.com/howto/howto_css_modals.asp*/
+
+.helpModal{
+  display: none;
+  position: fixed;
+  color: white;
+  z-index: 5;
+  left: 15%;
+  top: 30%;
+  width: 70%;
+  height: 35%;
+  background-color: rgba(117, 112, 112, 0.95);
+}
+
+.modalContent{
+  margin: auto;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.modalHeader{
+  font-size: 35px;
+  padding-left: 40px;
+}
+
+.modalDesc{
+  font-size: 15px;
+}
+
+.close{
+  color: white;
+  float: right;
+  font-size: 40px;
+}
+
+.close:hover, .close:focus{
+  color: black;
+  cursor: pointer;
+}
+
+
+a:link{
+	color:white;
+}
+a:visited{
+	color:white;
+}
+
+/* CSS for Search Results Page*/
+.floatRight{
+  float: right;
+}
+
+.floatLeft{
+  float: left;
+}
+.floatLeft > a{
+  color: #14e8f0;
+  font-size: 24px;
+  font-style: oblique;
+
+}
+
+.container > div {
+  background-color: #36c6b6;
+  border-radius:25px;
+  width: 250px;
+  height:200px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#button{
+	display: flex;	
+  margin-left: 50%;
+}
+
+.rectangle {
+  position: absolute;
+  top: 30%;
+  height: 300px;
+  width: 600px;
+  display: block;
+  left:0;
+  right:0;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  background-color: #36c6b6;
+}
+
+.homeHeading{
+  color: white;
+  font-size: 32px;
+  padding-top: 10%;
+}
+
+.search > input{
+  position: absolute;
+  top: 15%;
+  left: 25%;
+  width: 50%;
+  font-size: 30px;
+  justify-self: center;
+}
+
+.search > i{
+  position: absolute;
+  top: 15%;
+  left: 18%;
+  width: 50%;
+  font-size: 30px;
+  justify-self: center;
+}
+
+.table {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  font-size: 18px;
+  font-family: 'Avenir', sans-serif;
+  font-weight: light;
+  color: black;
+}
+
+.genre {
+  position: absolute;
+  top: 120px;
+  height: 35px;
+  width: 300px;
+  display: block;
+  left:60%;
+  right:0;
+  width: 27%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  background-color: white;
+}
+
+.platform {
+  position: absolute;
+  top: 120px;
+  height: 35px;
+  width: 300px;
+  display: block;
+  left:0;
+  right:60%;
+  width: 27%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  background-color: white;
+}
+
+.rating {
+  position: absolute;
+  top: 120px;
+  height: 35px;
+  width: 300px;
+  display: block;
+  left:0;
+  right:0;
+  width: 27%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25px;
+  background-color: white;
+}
+
+
+.navHeader{
+  padding-top: 20px;
+}
+
+strong{
+  font-size: 36px;
+}
+
+#a1:hover{
+  Height:250px;
+  width: 250px;
+  position:relative;
+  top:50px;
+}
+
+#a2:hover{
+  height:250px;
+  width:250px;
+  position:relative;
+  top:50px;
+}
+
+#a3:hover{
+  height:250px;
+  width:250px;
+  position:relative;
+  top:50px;
+}
+
+#a4:hover{
+  height:250px;
+  width:250px;
+  position:relative;
+  top:50px;
+}
+
+#a5:hover{
+  height:250px;
+  width:250px;
+  position:relative;
+  top:50px;
+}
+
+.flex-container{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  left:0;
+  right:0;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  /* top:100%; */
+  bottom: 0;
+  position: fixed;
+  z-index: 1;
+
+}
+
+h2{
+  font-family: 'Avenir', sans-serif;
+  font-weight: light;
+  text-align: center;
+  position: relative;
+
+}
