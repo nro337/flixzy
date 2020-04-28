@@ -25,42 +25,29 @@
   </nav>
 
   <div class="rectangle">
-    <h2> Don’t have a movie in mind? We’ve got you! </h2>
+    <h2> Don’t have a movie in mind? &nbsp; We’ve got you! </h2>
 
     <div class="table">
       <table style="width:100%">
+        <input type="search" placeholder="Search" id="searchField2">
         <tr>
+          <th>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</th>
           <th>Genre</th>
-          <th>Platform</th>
-          <th>Rating</th>
+          <th></th>
         </tr>
         <tr>
-          <th>
-            <select>
-              <option value="Option1">Option 1</option>
-              <option value="Option2">Option 2</option>
-              <option value="Option3">Option 3</option>
-            </select>
+          <th >
           </th>
           <th>
-            <select>
-              <option value="Option1">Option 1</option>
-              <option value="Option2">Option 2</option>
-              <option value="Option3">Option 3</option>
+            <select id="genreSelect">
+              <option value="Adventure">Adventure</option>
+              <option value="Comedy">Comedy</option>
+              <option value="Drama">Drama</option>
+              <option value="Horror">Horror</option>
             </select>
           </th>
-          <th>
-            <select>
-              <option value="Option1">Option 1</option>
-              <option value="Option2">Option 2</option>
-              <option value="Option3">Option 3</option>
-            </select>
+          <th >
           </th>
-        </tr>
-        <tr>
-          <th></th>
-          <th></th>
-          <th></th>
         </tr>
         <tr>
           <th></th>
@@ -69,7 +56,7 @@
         </tr>
         <tr>
           <th></th>
-          <th><input type="submit" /></th>
+          <th><input type="button" class="searchButton2" id="searchButton2" value="Search"></th>
           <th></th>
         </tr>
         <tr>
@@ -80,6 +67,10 @@
       </table>
     </div>
   </div>
+
+  <div class="Questions" id="questions">
+  </div>
+
   <div id="helpModal" class="helpModal">
     <div class="modalContent">
     <span class="close"><i class="las la-window-close"></i></span>
@@ -90,6 +81,8 @@
   </div>
 
 
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="./javascripts/scripts.js"></script>
 </body>
 

@@ -86,21 +86,32 @@ a:visited{
 	left:50px;
 	bottom:90px;
 }
-#name{
+#reviewName{
 	display:flex;
+	position: relative;
 	left:135px;
 	bottom:160px;
 	font-size:20px;
-	color:black;
+	color:white;
 }
 .checked-review {
+	display:flex;
+	position:relative;
+	padding-top: 2px;
+	padding-left: 10px;
+  	color:#36c6b6;
+}
+
+.rating-reviews {
 	display:flex;
 	position:relative;
 	left:135px;
 	bottom:160px;
 	margin:3px;
-  	color:#36c6b6;
+	  color:#36c6b6;
+	  padding-right: 20px;
 }
+
 #feedback{
 	display:flex;
 	position:relative;
@@ -110,12 +121,69 @@ a:visited{
 	color:white;
 	width:550px;
 }
+
+.deleteReview{
+	display: flex;
+	position: relative;
+	left: 200px;
+	bottom: 188px;
+	align-self: center;
+	justify-self: center;
+	font-size: 12px;
+	padding: 8px 10px;
+  
+  }
+  
+.editReview{
+	display: flex;
+	position: relative;
+	left: 135px;
+	bottom: 155px;
+	align-self: center;
+	justify-self: center;
+	font-size: 12px;
+	padding: 8px 10px;
+}
+
+.submitReviewEdit{
+	display: flex;
+	position: relative;
+	left: 280px;
+	bottom: 221px;
+	align-self: center;
+	justify-self: center;
+	font-size: 12px;
+	padding: 8px 10px;
+}
+
+.submitReviewEdit2{
+	display: flex;
+	position: relative;
+	left: 280px;
+	bottom: 221px;
+	align-self: center;
+	justify-self: center;
+	font-size: 12px;
+	padding: 8px 10px;
+}
+
+.submitReviewEdit3{
+	display: flex;
+	position: relative;
+	left: 280px;
+	bottom: 221px;
+	align-self: center;
+	justify-self: center;
+	font-size: 12px;
+	padding: 8px 10px;
+}
+
 .overallReview {	
 	display: flex;	
   	flex-direction: column;
 	position:relative;
 	bottom:800px;
-	left:1250px;
+	left:800px;
 	margin:20px;
   
 }

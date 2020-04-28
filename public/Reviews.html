@@ -28,48 +28,52 @@
 	<!--Review -->
 	<div id="review">
 		<div id="profile"> </div>
-		<div id="name"> Name </div>
-		<div id="rating-reviews">
-			<span class="fa fa-star checked-review"></span>	
-			<span class="fa fa-star checked-review"></span>
-			<span class="fa fa-star checked-review"></span>
-			<span class="fa fa-star checked-review"></span>
+		<form class="rev1Form">
+		<div id="reviewName" class="reviewName rev1" data-editable></div>
+		<div id="rating-reviews" class="rating-reviews">
 			<span class="fa fa-star checked-review"></span> 
 		</div>
-		<div id="feedback">  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut a </div>
+		<div id="feedback" class="reviewContent">   </div>
+		</form>
+		<button class="editReview edit1" type="button">Edit</button>
+		<button type="button" id="deleteReview" class="deleteReview deleteReview1">Delete</button>
+		<button class="submitReviewEdit" id="submitNewReview" type="submit">Submit</button>
 	</div>
 	<div id="review">
 		<div id="profile"> </div>
-		<div id="name"> Name </div>
-		<div id="rating-reviews">
+		<form class="rev2Form">
+		<div id="reviewName" class="reviewName reviewName2"></div>
+		<div id="rating-reviews" class="rating-reviews">
 			<span class="fa fa-star checked-review"></span>	
-			<span class="fa fa-star checked-review"></span>
-			<span class="fa fa-star checked-review"></span>
-			<span class="fa fa-star checked-review"></span>
-			<span class="fa fa-star checked-review"></span> 
 		</div>
-		<div id="feedback">  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut a </div>
+		<div id="feedback" class="reviewContent feedback2">   </div>
+		</form>
+		<button class="editReview edit2" type="button">Edit</button>
+		<button type="button" class="deleteReview deleteReview2">Delete</button>
+		<button class="submitReviewEdit2" id="submitNewReview" type="submit">Submit</button>
 	</div>
 	<div id="review">
 		<div id="profile"> </div>
-		<div id="name"> Name </div>
-		<div id="rating-reviews">
+		<form class="rev3From">
+		<div id="reviewName" class="reviewName reviewName3"></div>
+		<div id="rating-reviews" class="rating-reviews">
 			<span class="fa fa-star checked-review"></span>	
-			<span class="fa fa-star checked-review"></span>
-			<span class="fa fa-star checked-review"></span>
-			<span class="fa fa-star checked-review"></span>
-			<span class="fa fa-star checked-review"></span> 
 		</div>
-		<div id="feedback">  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut a </div>
+		<div id="feedback" class="reviewContent feedback3">   </div>
+		</form>
+		<button class="editReview edit3" type="button">Edit</button>
+		<button type="button" class="deleteReview deleteReview3">Delete</button>
+		<button class="submitReviewEdit3" id="submitNewReview" type="submit">Submit</button>
 	</div>
 
 	<!-- Overall Review-->
 	<div class="overallReview">
-		<div> <h3> Overall Review</h3> <span id="fraction"> 4/5 </fspan> </div>
+		<div> <h3> Overall Review</h3> <span id="fraction"> </span> </div>
 	</div>
 
 
-
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="./javascripts/scripts.js"></script>
   </body>
 </html>

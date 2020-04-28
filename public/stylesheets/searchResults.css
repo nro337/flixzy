@@ -58,7 +58,7 @@ nav ul li a{
 	display:flex;
 	background-color:#36c6b6;
 	width:500px;
-	height:750px;
+	height:800px;
 	float:left;
   border-radius:25px;
   margin-top: 10%;
@@ -103,6 +103,17 @@ nav ul li a{
 	color:white;
 	font-size:18px;
 }
+
+#genres{
+	display:flex;
+	position:relative;
+	left:50px;
+	bottom:150px;
+	margin:20px;
+	color:white;
+	font-size:18px;
+}
+
 #seeReviews{
 	display:flex;
 	position:relative;

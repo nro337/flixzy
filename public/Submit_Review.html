@@ -25,7 +25,7 @@
 	</div> 
 	<!--form-->
 	<div>
-		<!-- <form> -->
+		<form id="reviewForm">
 			<div class="container-submitreview">
 				<div class="container-titles">
 					<div> Name </div>
@@ -34,21 +34,24 @@
 					<div> Feedback </div>
 				</div>
 				<div class="container-inputs">
-					<div> <input id="name" name="name" type="text"> </div>
-					<div> <input id="name" name="name" type="text"> </div>
-					<div> <input id="name" name="name" type="text"> </div>
-					<div> <textarea id="name" name="name" type="text" rows="8" cols="43"></textarea> </div>
+					<div> <input id="userName" name="title" type="text"> </div>
+					<div> <input id="movieName" name="movieName" type="text"> </div>
+					<div> <input id="movieRating" name="movieRating" type="text"> </div>
+					<div> <textarea id="movieFeedback" name="content" rows="8" cols="43"></textarea> </div>
 				</div>
 			</div>
-			<button id="button" onclick="triggerSnackbar()">Submit</button>
-		<!-- </form> -->
+			<div class="submitReviewButton">
+				<button id="submitNewReview" type="submit">Submit</button>
+			</div>
+		</form>
 		<div id="snackbar">Thank you for Submitting!</div>
 	</div>
 
 
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-		crossorigin="anonymous"></script>
+	<script
+	src="https://code.jquery.com/jquery-3.5.0.min.js"
+	integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+	crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
 		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
 		crossorigin="anonymous"></script>
